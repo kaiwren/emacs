@@ -53,7 +53,7 @@
 (if (eq system-type 'darwin)
 		(shell-command (concat "open " (file-name-directory (buffer-file-name))))))
 
-(require 'cl)
+;;(require 'cl)
 ;; Common
 (require 'ack)
 (require 'ecb-init)
@@ -67,10 +67,10 @@
 (require 'anything)
 (require 'anything-show-completion)
 ;; VC
-(require 'dvc-init)
-(require 'magit-init)
+;;(require 'dvc-init)
+;;(require 'magit-init)
 
-(require 'twit-el-init)
+;;(require 'twit-el-init)
 (require 'markdown-init)
 (require 'yaml-init)
 ;; Web
@@ -90,10 +90,10 @@
 ;;(require 'haml-init)
 
 ;;(require 'php-mode)
-(require 'slime-init)
-(require 'clojure-init)
+;;(require 'slime-init)
+;;(require 'clojure-init)
 ;;(require 'distel-init)
-(require 'haskell-init)
+;;(require 'haskell-init)
 
 ;;Color
 (require 'color-theme-init)
