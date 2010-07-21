@@ -1,0 +1,24 @@
+[submodule "packages/autocomplete"]
+	path = packages/autocomplete
+	url = git://github.com/m2ym/auto-complete.git
+[submodule "packages/cedet"]
+	path = packages/cedet
+	url = git://github.com/emacsmirror/cedet.git
+[submodule "packages/ecb"]
+	path = packages/ecb
+	url = git://github.com/emacsmirror/ecb.git
+[submodule "packages/growl"]
+	path = packages/growl
+	url = git://github.com/emacsmirror/growl.git
+[submodule "packages/yaml-mode"]
+	path = packages/yaml-mode
+	url = git://github.com/yoshiki/yaml-mode.git
+[submodule "packages/yasnippet"]
+	path = packages/yasnippet
+	url = git://github.com/dirceu/yasnippet.git
+[submodule "packages/nxhtml"]
+	path = packages/nxhtml
+	url = git://github.com/emacsmirror/nxhtml.git
+[submodule "packages/zen-and-art"]
+	path = packages/zen-and-art
+	url = git://github.com/irfn/zen-and-art.git
