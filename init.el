@@ -63,31 +63,31 @@
 (require 'duplicate-line)
 (require 'growl-init)
 (require 'yas-init)
-(require 'browse-kill-ring-init)
+;;(require 'browse-kill-ring-init)
 (require 'autocomplete-init)
-(require 'anything)
-(require 'anything-show-completion)
+;;(require 'anything)
+;;(require 'anything-show-completion)
 ;; VC
 ;;(require 'dvc-init)
 ;;(require 'magit-init)
 
 ;;(require 'twit-el-init)
-(require 'markdown-init)
+;;(require 'markdown-init)
 (require 'yaml-init)
 ;; Web
-(require 'js2-init)
-(require 'espresso-init)
+;;(require 'js2-init)
+;;(require 'espresso-init)
 
 ;;Ruby 
-(require 'rsense-init)
-(require 'ri-emacs-init)
-(require 'rspec-init)
-(require 'textmate-init)
-(require 'textile-mode)
-(require 'rcodetools)
-(require 'anything-rcodetools)
+;;(require 'rsense-init)
+;;(require 'ri-emacs-init)
+;;(require 'rspec-init)
+;;(require 'textmate-init)
+;;(require 'textile-mode)
+;;(require 'rcodetools)
+;;(require 'anything-rcodetools)
 ;; Rails
-(require 'rinari-init)
+;;(require 'rinari-init)
 ;;(require 'haml-init)
 
 ;;(require 'php-mode)
@@ -97,11 +97,11 @@
 ;;(require 'haskell-init)
 
 ;;Color
-(require 'color-theme-init)
+;;(require 'color-theme-init)
 ;;(require 'inkpot-init)
 ;;(require 'zenburn-init)
 ;;(require 'twilight-init)
-(require 'zen-init)
+;;(require 'zen-init)
 
 (load "~/.emacs.d/packages/nxhtml/autostart.el")
 
