@@ -88,7 +88,7 @@
 (require 'anything-rcodetools)
 ;; Rails
 (require 'rinari-init)
-;;(require 'haml-init)
+(require 'haml-init)
 
 ;;(require 'php-mode)
 ;;(require 'slime-init)
@@ -98,9 +98,6 @@
 
 ;;Color
 (require 'color-theme-init)
-;;(require 'inkpot-init)
-;;(require 'zenburn-init)
-;;(require 'twilight-init)
 (require 'zen-init)
 
 (load "~/.emacs.d/packages/nxhtml/autostart.el")
