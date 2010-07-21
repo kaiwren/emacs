@@ -39,7 +39,7 @@
 (setq *textmate-gf-exclude*
 			"/\\.|*Flash|*flash|vendor|fixtures|tmp|log|build|\\.xcodeproj|\\.nib|\\.framework|\\.app|\\.pbproj|\\.pbxproj|\\.xcode|\\.xcodeproj|\\.bundle|\\.pyc|\\.elc|\\.jar|\\.class")
 (setq auto-mode-alist (cons '("Rakefile$" . ruby-mode) auto-mode-alist))
-(setq auto-mode-alist (cons '(".haml$" . haml-mode) auto-mode-alist))
+;;(setq auto-mode-alist (cons '(".haml$" . haml-mode) auto-mode-alist))
 (setq highlight-current-line-globally t)
 (setq initial-scratch-message nil)
 (setq rct-get-all-methods-command "PAGER=cat fri -l")
@@ -65,8 +65,8 @@
 (require 'yas-init)
 ;;(require 'browse-kill-ring-init)
 (require 'autocomplete-init)
-;;(require 'anything)
-;;(require 'anything-show-completion)
+(require 'anything)
+(require 'anything-show-completion)
 ;; VC
 ;;(require 'dvc-init)
 ;;(require 'magit-init)
@@ -88,7 +88,7 @@
 (require 'anything-rcodetools)
 ;; Rails
 (require 'rinari-init)
-(require 'haml-init)
+;;(require 'haml-init)
 
 ;;(require 'php-mode)
 ;;(require 'slime-init)
