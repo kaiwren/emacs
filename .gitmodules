@@ -31,9 +31,6 @@
 [submodule "packages/ri-emacs"]
 	path = packages/ri-emacs
 	url = git://github.com/pedz/ri-emacs.git
-[submodule "packages/rspec-mode"]
-	path = packages/rspec-mode
-	url = git://github.com/srushti/rspec-mode.git
 [submodule "packages/textmate.el"]
 	path = packages/textmate.el
 	url = git@github.com:niranjan/textmate.el.git
