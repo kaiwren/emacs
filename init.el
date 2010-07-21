@@ -82,7 +82,7 @@
 ;;(require 'rsense-init)
 (require 'ri-emacs-init)
 (require 'rspec-init)
-;;(require 'textmate-init)
+(require 'textmate-init)
 ;;(require 'textile-mode)
 ;;(require 'rcodetools)
 ;;(require 'anything-rcodetools)
