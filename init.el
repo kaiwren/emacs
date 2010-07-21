@@ -84,8 +84,8 @@
 (require 'rspec-init)
 (require 'textmate-init)
 ;;(require 'textile-mode)
-;;(require 'rcodetools)
-;;(require 'anything-rcodetools)
+(require 'rcodetools)
+(require 'anything-rcodetools)
 ;; Rails
 (require 'rinari-init)
 ;;(require 'haml-init)
