@@ -37,7 +37,7 @@
   (interactive)
   (setq outline-regexp " *\\(def\\|if\\|when\\|do\\)"))
 (setq *textmate-gf-exclude*
-  "/\\.|*Flash|*flash|vendor|fixtures|tmp|log|build|\\.xcodeproj|\\.nib|\\.framework|\\.app|\\.pbproj|\\.pbxproj|\\.xcode|\\.xcodeproj|\\.bundle|\\.pyc|\\.elc|\\.jar|\\.class")
+			"/\\.|*Flash|*flash|vendor|fixtures|tmp|log|build|\\.xcodeproj|\\.nib|\\.framework|\\.app|\\.pbproj|\\.pbxproj|\\.xcode|\\.xcodeproj|\\.bundle|\\.pyc|\\.elc|\\.jar|\\.class")
 (setq auto-mode-alist (cons '("Rakefile$" . ruby-mode) auto-mode-alist))
 (setq auto-mode-alist (cons '(".haml$" . haml-mode) auto-mode-alist))
 (setq highlight-current-line-globally t)
@@ -50,16 +50,15 @@
     (setq system-name (car (split-string system-name "\\."))))
 
 (defun open-buffer-path ()
-"Run finder on the directory of the current buffer."
-(interactive)
-(if (eq system-type 'darwin)
-		(shell-command (concat "open " (file-name-directory (buffer-file-name))))))
+	"Run finder on the directory of the current buffer."
+	(interactive)
+	(if (eq system-type 'darwin)
+			(shell-command (concat "open " (file-name-directory (buffer-file-name))))))
 
 ;;(require 'cl)
 ;; Common
 (require 'ack)
 (require 'ecb-init)
-(require 'linum-init)
 (require 'highlight-current-line)
 (require 'duplicate-line)
 (require 'growl-init)
