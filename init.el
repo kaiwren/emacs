@@ -80,14 +80,14 @@
 
 ;;Ruby 
 ;;(require 'rsense-init)
-;;(require 'ri-emacs-init)
+(require 'ri-emacs-init)
 ;;(require 'rspec-init)
 ;;(require 'textmate-init)
 ;;(require 'textile-mode)
 ;;(require 'rcodetools)
 ;;(require 'anything-rcodetools)
 ;; Rails
-;;(require 'rinari-init)
+(require 'rinari-init)
 ;;(require 'haml-init)
 
 ;;(require 'php-mode)
@@ -97,11 +97,11 @@
 ;;(require 'haskell-init)
 
 ;;Color
-;;(require 'color-theme-init)
+(require 'color-theme-init)
 ;;(require 'inkpot-init)
 ;;(require 'zenburn-init)
 ;;(require 'twilight-init)
-;;(require 'zen-init)
+(require 'zen-init)
 
 (load "~/.emacs.d/packages/nxhtml/autostart.el")
 

@@ -22,3 +22,12 @@
 [submodule "packages/zen-and-art"]
 	path = packages/zen-and-art
 	url = git://github.com/irfn/zen-and-art.git
+[submodule "packages/rinari"]
+	path = packages/rinari
+	url = git://github.com/eschulte/rinari.git
+[submodule "packages/jump.el"]
+	path = packages/jump.el
+	url = git://github.com/eschulte/jump.el.git
+[submodule "packages/ri-emacs"]
+	path = packages/ri-emacs
+	url = git://github.com/pedz/ri-emacs.git

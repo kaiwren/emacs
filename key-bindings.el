@@ -18,9 +18,9 @@
 (global-set-key "\M-/" 'auto-complete)
 (global-set-key "\M-?" 'dabbrev-expand)
 (global-set-key (kbd "\C-co") 'open-buffer-path)
-(define-key anything-map "\C-cz" 'anything-execute-persistent-action)
+;;(define-key anything-map "\C-cz" 'anything-execute-persistent-action)
 
-(global-set-key "\C-cy" 'browse-kill-ring)
+;;(global-set-key "\C-cy" 'browse-kill-ring)
 
 (global-set-key (kbd "ESC M-a") 'ack)
 (global-set-key [M-backspace] 'delete-region)
