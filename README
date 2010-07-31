@@ -24,4 +24,7 @@ create following in your home folder.
 create a .snippets directory - mine is symlinked to a folder where i collect snippets
 github has a bunch of repositories for yasnippets.
 
+Install sbcl for slime
+~ λ brew install sbcl
+
 create a .clojure directory  with a blank user.clj files
